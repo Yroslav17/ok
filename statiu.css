@@ -187,7 +187,7 @@ input{
     margin: 10px 0 35px;
   }
 
-  footer{
+ footer{
     width: auto;
     padding: 30px;
     font-size: 14px;
@@ -204,6 +204,31 @@ input{
 
 .pF{
     width: 100%;
+}
+
+ol, li{
+    list-style: none;
+}
+
+ol{
+    counter-reset: ol-numbers;
+}
+
+ol li{
+    position: relative;
+    padding: 0px 0px 0px 50px;
+}
+ 
+ol li::before{
+    counter-increment: ol-numbers;
+    content: counter(ol-numbers) ")";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 40px;
+    text-align: right;
+    color:#fac981;
 }
 
 /* светлая тема */
