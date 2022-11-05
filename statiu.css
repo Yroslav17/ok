@@ -58,8 +58,6 @@ i{
     color: #fac981;
 }
 
-
-
 .headerInner{
     display: flex;
     justify-content: space-between;
@@ -84,7 +82,7 @@ i{
     padding-left: 0; 
   }
 
-  a {
+ a {
     text-decoration: none;
 }
 
@@ -138,7 +136,7 @@ input{
 
 .babod{
     background-color: #989898;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
     padding: 10px;
