@@ -230,6 +230,16 @@ ol li::before{
     color:#fac981;
 }
 
+.themeButton{
+    border-radius: 30px;
+    transition: all 500ms ease-out;
+}
+
+.themeButton:hover {
+    box-shadow: 0px 0px 0px 2px #fac981,
+    0px 0px 5px 7px #fff
+}
+
 /* светлая тема */
 .lightTheme {
     background-color: #fff;
@@ -307,6 +317,11 @@ background-color: #1f1f1f;
 
 .darkTheme h1{
     color: #fff;
+}
+
+.darkTheme .themeButton:hover {
+    box-shadow: 0px 0px 0px 2px #fff,
+    0px 0px 5px 7px #fac981
 }
 
 .darkTheme .line{
